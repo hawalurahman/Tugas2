@@ -1,0 +1,197 @@
+         body {
+             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             line-height: 1.5;
+             padding-left: 20%;
+             padding-right: 20%;
+             padding-top: 1%;
+             text-decoration: none;
+             font-size: 12pt;
+         }
+         
+         a {
+             text-decoration: none;
+             padding: 6px;
+             color: white;
+             font-size: 12pt;
+         }
+         
+         input[value="Tambah"] {
+             background-color: green;
+             border: none;
+             padding: 10px;
+             color: white;
+             border-radius: 6px;
+             font-size: 12pt;
+         }
+         
+         table {
+             width: 100%;
+             border-collapse: collapse;
+         }
+         
+         td,
+         th {
+             padding: 5px 10px;
+             border: 1px solid lightgrey;
+             border-collapse: collapse;
+         }
+         
+         tr td:last-child {
+             width: 1%;
+             white-space: nowrap;
+             overflow: hidden;
+         }
+         
+         tr td:first-child {
+             width: 1%;
+             white-space: nowrap;
+             text-align: center;
+         }
+         
+         th {
+             background-color: green;
+             color: white;
+             padding: 10px 10px;
+         }
+         
+         .control {
+             position: relative;
+             width: 178px;
+             background-color: green;
+             border-radius: 10px;
+             padding: 3px;
+             padding-left: 5px;
+         }
+         
+         .fcontrol {
+             position: relative;
+             width: auto;
+             background-color: lightgrey;
+             border-radius: 10px;
+             padding: 3px;
+             padding-left: 5px;
+         }
+         
+         #fdetail,
+         #fedit {
+             color: rgb(190, 190, 190);
+         }
+         
+         #fstatus {
+             position: absolute;
+             right: 0px;
+             top: -3px;
+             background-color: red;
+             border-radius: 10px;
+             float: inline-end;
+         }
+         
+         #status {
+             position: absolute;
+             right: 0px;
+             top: -3px;
+             background-color: darkgreen;
+             border-radius: 10px;
+         }
+         /* -------------------- add.php --------------------------- */
+         
+         label {
+             display: inline-block;
+             width: 140px;
+         }
+         
+         label[for='male'],
+         label[for='female'] {
+             width: 50px;
+         }
+         
+         .button {
+             margin-top: 30px;
+         }
+         
+         a[id=cancel] {
+             border-radius: 6px;
+             background-color: lightgrey;
+             color: black;
+             padding: 10px;
+         }
+         
+         input {
+             font-size: 12pt;
+             margin-top: 5px;
+             margin-bottom: 5px;
+             padding-left: 5px;
+             padding-top: 5px;
+         }
+         
+         input[type='file'] {
+             font-size: 10pt;
+         }
+         /* -------------------------- detail.php --------------------*/
+         
+         .row {
+             width: 140px;
+         }
+         
+         table {
+             font-size: 12pt;
+             border-collapse: collapse;
+         }
+         
+         .detail {
+             border: 1px solid black;
+         }
+         
+         .form {
+             display: flex;
+         }
+         
+         .photo-view {
+             margin-left: 30px;
+             overflow: hidden;
+             height: 235px;
+             width: 235px;
+         }
+         
+         .photo-view>img {
+             max-height: 235px;
+             width: auto;
+         }
+         /* ------------------- edit.php ------------------------*/
+         
+         .edit-page {
+             display: flex;
+         }
+         
+         .container-view p {
+             margin-left: 30px;
+             padding: 0;
+             font-size: 10pt;
+         }
+         
+         input[value="Update"],
+         #edit2 {
+             background-color: green;
+             border: none;
+             padding: 10px;
+             color: white;
+             border-radius: 6px;
+             font-size: 12pt;
+         }
+         
+         .footer {
+             margin-top: 200px;
+             text-align: center;
+         }
+         
+         @media screen and (max-width: 683px) {
+             body {
+                 font-family: Arial, Helvetica, sans-serif;
+                 line-height: 1.5;
+                 padding-left: 5%;
+                 padding-right: 5%;
+                 padding-top: 5%;
+                 text-decoration: none;
+                 font-size: 12pt;
+             }
+         }
